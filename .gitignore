@@ -1,0 +1,54 @@
+# Arquivos de configuração e segredos (MUITO IMPORTANTE)
+# Nunca envie suas chaves de API ou outras credenciais!
+.env
+.env.*
+!/.env.example
+
+# Ambiente Virtual do Python
+# A pasta que contém suas dependências instaladas
+venv/
+.venv/
+env/
+.env/
+*/.env
+
+# Arquivos de IDE (PyCharm)
+# Configurações específicas do seu ambiente de desenvolvimento
+.idea/
+
+# Cache e arquivos compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Específico para LangChain e IA
+# Bancos de dados vetoriais locais e índices
+*.db
+*.sqlite3
+.chroma/
+faiss_index/
+*.faiss
+
+# Logs e arquivos de dados temporários
+*.log
+logs/
+
+# Notebooks Jupyter (cache)
+.ipynb_checkpoints
+
+# Dependências e pacotes de build
+*.egg-info/
+build/
+dist/
+pip-wheel-metadata/
+requirements.txt.bak
+
+# Arquivos de Teste
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
