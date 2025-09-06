@@ -1,0 +1,26 @@
+# LangChain Core & Integrations
+langchain
+langchain-community
+langchain-openai
+langchain-chroma
+
+# LLM & NLP
+openai
+huggingface_hub
+transformers
+sentence-transformers
+tiktoken
+faiss-cpu
+lark
+
+# Data Handling & Utilities
+ipykernel
+jinja2
+pypdf
+beautifulsoup4
+python-dotenv
+
+# Multimedia & Web
+yt_dlp
+pydub
+ffmpeg-python
